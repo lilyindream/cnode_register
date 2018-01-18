@@ -1,0 +1,6 @@
+,,,,TestCase 1：输入不完整的用户信息,login_fail_blank,信息不完整。
+123451,3123,3123,2312@qq.com,TestCase 2：输入已存在的用户名,login_fail_used,用户名或邮箱已被使用。
+123,3123,3123,2312@qq.com,TestCase 3：输入长度不够的用户名,login_fail_length,用户名至少需要5个字符。
+34567891,3123,312233,34567891@qq.com,TestCase 4：输入的两次密码不一致,login_fail_pwd,两次密码输入不一致。
+123456,3123,3123,12345623,TestCase 5：输入错误格式的邮箱地址,login_fail_mail,邮箱不合法。
+1234547,123451,123451,1234547@qq.com,TestCase 6：输入正确的用户信息,lohin_fail_success,欢迎加入 Nodeclub！我们已给您的注册邮箱发送了一封邮件，请点击里面的链接来激活您的帐号。
